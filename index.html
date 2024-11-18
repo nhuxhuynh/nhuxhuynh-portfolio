@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Nhu Huynh's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="#" class="image avatar" id="avatarBtn"><img src="images/IMG_2163.jpg" alt=""/></a>
+            <h1><strong>Nhu Huynh</strong></h1>
+            <p>Technical/Analyst Portfolio</p>
+        </div>
+    </header>
+
+    <div id="avatarModal" class="modal">
+        <span class="close" id="closeAvatarModal">&times;</span>
+        <img class="modal-content" id="avatarModalImage" src="images/IMG_2163.jpg" alt="Profile Avatar">
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Introduction Section -->
+        <section id="one">
+            <header class="major">
+                <h2>Hello, My name is Nhu Huynh. I'm a Management Information Systems Alumna
+                at the University of Houston.</h2>
+            </header>
+            <p>This is my portfolio page that displays my projects and skills on different programming languages and platforms (e.g., SQL, Python, Power BI, etc.).<br/>
+            <br/>Education: Bachelor of Business Administration in Management Information Systems (Magna Cum Laude, GPA: 3.88) <br/>
+            <br/>Technical Skills: SQL (MS Server, MySQL); Python; Power BI; SAS; HTML, CSS, JavaScript; MS Excel, Access, Word, PowerPoint; Java<br/>
+            </p>
+			<title>View Resume Modal</title>
+		<body>
+            <ul class="actions"> 
+                <li>
+                    <button class="button" id="viewResumeBtn">View Resume</button>
+                </li>
+            </ul>
+            
+		<!-- Modal Structure -->
+		<div id="resumeModal" class="modal">
+			<span class="close" id="closeModal">&times;</span>
+			<img class="modal-content" id="modalImage" src="images/NhuResume.png" alt="Resume">
+			<div id="caption"></div>
+		</div>
+	</body>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="two">
+            <h2>Projects</h2>
+            <div class="row">
+                <!-- Power BI Project Showcase -->
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNTcwN2QwYWEtYjcxMC00NTkxLWJlMDYtOTViNjE0ZWRkNTgwIiwidCI6IjE3MGJiYWJkLWEyZjAtNGM5MC1hZDRiLTBlOGYwZjBjNDI1OSIsImMiOjN9" class="overlay-button" target="_blank">
+                        <img src="images/PowerBiDataPro.png" alt="Power BI Dashboard" />
+                        <div class="button-overlay">View Dashboard</div>
+                    </a>
+                    <h3>Power BI Data Preparation Survey Breakdown Project</h3>
+                    <p>This dashboard is created using a dataset from professional survey takers utilizing Power BI for data visualizations such as charts and tables to report (technical) careers and informations. In the dataset, I removed unnecessary columns, fixed errors, display important elements, and show insights of different job titles, gender, countries, salaries, balance, etc.</p>
+                </article>
+ 
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiODQyYTU3Y2QtZjE4Ny00ZGM0LTg4ZGQtYWYyMTQ3ZDY3YWM4IiwidCI6IjE3MGJiYWJkLWEyZjAtNGM5MC1hZDRiLTBlOGYwZjBjNDI1OSIsImMiOjN9" class="overlay-button" target="_blank">
+                        <img src="images/AmazonPowerBi.png" alt="Power BI Dashboard" />
+                        <div class="button-overlay">View Dashboard</div>
+                    </a>
+                    <h3>Power BI Amazon Prime Titles Project</h3>
+                    <p>This dashboard is created using a dataset on Amazon Prime users showcasing titles and shows of the users. Data visualizations such as charts were created to display ratings, genre, titles, movies/shows, years, etc. </p>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="https://nhuxhuynh.github.io/MySQL-Data-Cleaning-Project/" class="overlay-button">
+                        <img src="images/layoffs.jpg" alt="MySQL Data Cleaning" />
+                        <div class="button-overlay">View Project</div>
+                    </a>
+                    <h3>MySQL Data Cleaning World Layoffs Project</h3>
+                    <p>In MySQL, I uploaded a layoffs excel (.csv) and cleaned the data using SQL language. The steps I took for the data cleaning are: 
+                        <p> Step 1: Remove Duplicates (Check for duplicates and remove them) </p> 
+                        <p> Step 2: Standardize the Data (If there are issues with Data then standardize it) </p>
+                        <p> Step 3: Null values or Blank Values (See if we need to/can populate the values)</p>
+                        <p> Step 4: Remove Any Columns (If needed to, we will remove any unnecessary column(s))</p> </p>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="https://nhuxhuynh.github.io/MySQL-EDA-Project/" class="overlay-button">
+                        <img src="images/layoffs2.jpeg" alt="MySQL EDA" />
+                        <div class="button-overlay">View Project</div>
+                    </a>
+                    <h3>MySQL Data Exploratory Analysis World Layoffs Project</h3>
+                    <p>This is an extension on my Data Cleaning project, but this is where I did Data Exploratory Analysis (EDA) on the layoffs dataset in MySQL. I was able to clean the dataset and get as accurate as possible of informations on the company and their layoffs using SQL language. </p>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="https://nhuxhuynh.github.io/Python-Automated-File-Sorter-Project/" class="overlay-button">
+                        <img src="images/organize.png" alt="Python File Sorter" />
+                        <div class="button-overlay">View Project</div>
+                    </a>
+                    <h3>Python Automated File Sorter File Explorer Project</h3>
+                    <p>In Jupyter Notebook, I created an automated File Sorter File Explorer to organize folders based on their types. I currently created a sorter for images file (.png), csv files (.csv), and text files (.txt) using Python. By using the Python language, I was able to create folders and sort each files into their coordinated types. </p>
+                </article>
+                <!-- More projects can be added similarly -->
+            </div>
+            <ul class="actions">
+                <li><a href="https://github.com/nhuxhuynh" class="button">Full Github Portfolio</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="three">
+            <h2>Contact Me</h2>
+            <p>Thank you for taking the time to view my portfolio! I'm available by email or phone number below if anything else is needed.</p>
+            <div class="row">
+                <div class="col-4 col-12-small">
+                    <ul class="labeled-icons">
+                        <li>
+                            <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                            Houston, TX 77083<br />
+                            United States
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                            832-929-2257
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                            <a href="mailto:nhuxhuynh@gmail.com">nhuxhuynh@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="www.linkedin.com/in/nhuxhuynh" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+						<li><a href="https://github.com/nhuxhuynh" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:nhuxhuynh@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Nhu Huynh's Portfolio</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+</html>
