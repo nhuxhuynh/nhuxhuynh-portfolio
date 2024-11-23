@@ -81,6 +81,11 @@
     cursor: pointer;
 }
 
+.close:hover, .close:focus {
+    color: #555; /* Optional: Slightly lighter black on hover/focus */
+    text-decoration: none; /* Remove underline if any */
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
